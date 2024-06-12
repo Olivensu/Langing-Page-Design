@@ -47,9 +47,7 @@ export const Section3 = () => {
 
 
             <div className="grid grid-cols-5 border border-gray-300 my-3 rounded-full overflow-hidden">
-                <div className={`flex-1 text-center  py-1 cursor-pointer transition-colors duration-300 ${
-                    selected === '1Len' ? 'bg-red-500 text-white' : 'bg-white text-black'
-                    }`}
+                <div className='flex-1 text-center  py-1 cursor-pointer bg-red-500'
                     onClick={() => setCount(count-1)}
                 >
                     -
@@ -58,9 +56,7 @@ export const Section3 = () => {
                     className='flex-1 col-span-3 text-center py-1 cursor-pointer transition-colors duration-300'>
                     {count}
                 </div>
-                <div className={`flex-1 text-center  py-1 cursor-pointer transition-colors duration-300 ${
-                    selected === '1Len' ? 'bg-red-500 text-white' : 'bg-white text-black'
-                    }`}
+                <div  className='flex-1 text-center  py-1 cursor-pointer bg-red-500'
                     onClick={() => setCount(count+1)}
                 >
                     +
