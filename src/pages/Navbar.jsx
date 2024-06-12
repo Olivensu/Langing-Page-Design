@@ -9,6 +9,7 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 export const Navbar = () => {
   return (
     <nav className="bg-primary-500">
+        <div className='max-w-7xl mx-auto'>
         <ul className='flex justify-between items-center px-4 md:px-12 py-3'>
             <li className='block md:hidden'>
                 <Grid container sx={{ color: 'tomato' }}>
@@ -85,6 +86,7 @@ export const Navbar = () => {
                 <a href="#" className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-red-500">Used</a>
             </li>
         </ul>
+        </div>
         </div>
     </nav>
   )
