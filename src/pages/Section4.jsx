@@ -72,7 +72,6 @@ export const Section4 = () => {
                                     <li>Camera Bags</li>
                                     <li>Grips & Rigs</li>
                                     <li>f/2.8 to f/11</li>
-                                    <li>f/2.8 to f/11</li>
                         </ul>
                     </div>
                     <div>

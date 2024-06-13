@@ -12,8 +12,8 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export const Footer = () => {
   return (
-    <div  className="bg-primary-500 mx-auto py-5 text-start text-white">
-        <div className='max-w-7xl  mx-5 md:mx-24'>
+    <div  className="bg-primary-500 py-5 text-start text-white">
+        <div className='max-w-7xl mx-auto px-5 md:px-24'>
             <div className='grid grid-cols-1 md:grid-cols-10 gap-5 items-center'>
                 <div className=' col-span-4 grid grid-cols-1 md:grid-cols-2 gap-4 mt-1 w-full md:w-5/6'>
                     <img className='w-full max-h-60' src={image22} alt="" />
